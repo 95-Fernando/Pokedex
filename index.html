@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Montserrat:wght@300;400&family=Roboto:wght@500&family=Unbounded&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/Pokedex/styles.css">
+</head>
+<body>
+    <main class="main__container">
+        <!-- contenedor de busqueda -->
+        <div class="search__container">
+            <h1>Pokedex</h1>
+            <label for="searched__pokemon"></label>
+            <input type="search" id="pokemon" name="searched__pokemon" value="Search Pokemon..." onclick="delateValue()">
+            <button class="button" id="btn"> <i class="fas fa-search"></i></button>
+        </div>
+        <!-- FINAL contenedor de busqueda -->
+        <div class="pokemon__container" id="pokemonContainer">
+            <!-- <h2>TOTODILE</h2>
+            <div class="images__container">
+                <p>Normal<img src="/Pokedex/images/normal.png"></p>
+                <p>Shiny<img src="/Pokedex/images/shiny.png"></p>
+            </div>
+            <p>Number: 158</p>
+            <p>Height: .60m</p>
+            <p>Weight: 9.5kg</p> -->
+        </div>
+    </main>
+    <script src="https://kit.fontawesome.com/9df9058901.js" crossorigin="anonymous"></script>
+    <script src="/Pokedex/pokedex.js"></script>
+  
+</body>
+</html>
