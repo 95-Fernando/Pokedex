@@ -46,7 +46,12 @@ const delateValue = () =>{
     inputPokemon.value= "";
 }
 
-
 buttonSearch.addEventListener("click", () =>{
     searchPokemon();
+})
+
+inputPokemon.addEventListener("keypress", (e) => {
+    if(e.key === "Enter"){
+        searchPokemon();
+    };
 })
